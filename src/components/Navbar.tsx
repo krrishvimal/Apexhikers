@@ -16,12 +16,12 @@ const UTILITY_LINKS = [
 const MAIN_LINKS = [
   { 
     name: "Fixed Departures", 
-    href: "/fixed-departures",
+    href: "#",
     submenu: ["Upcoming Autumn Trek", "Upcoming Monsoon Trek", "Upcoming Spring Trek", "Upcoming Summer Trek", "Upcoming Winter Trek"]
   },
   { 
     name: "Expeditions", 
-    href: "/expeditions",
+    href: "#",
     submenu: [
       "Satopanth (7075m)", "Kalindi Pass (6000m)", "Black Peak (6387m)", 
       "Kedar Dome (6831m)", "Bhagirathi Peak 2 (6512m)", "Shivling Peak (6543m)",
@@ -30,17 +30,17 @@ const MAIN_LINKS = [
   },
   { 
     name: "Learning Trails", 
-    href: "/learning-trails",
+    href: "#",
     submenu: ["School Program", "University Program"]
   },
   { 
     name: "Yatra", 
-    href: "/yatra",
+    href: "#",
     submenu: ["Char Dham Yatra", "Do Dham Yatra", "Kedarnath Trek", "Badrinath Trek", "Hemkund Sahib", "Panch Kedar Trek", "Tungnath Trek"]
   },
   { 
     name: "Our Story", 
-    href: "/story",
+    href: "#",
     submenu: ["About Us", "Our Mission", "Our Commitment", "Our Leadership", "Connecting to Himalayas"]
   },
 ];
