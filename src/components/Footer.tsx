@@ -10,22 +10,22 @@ import Image from "next/image";
 const FOOTER_LINKS = {
   quick: [
     { name: "Trek", href: "/treks" },
-    { name: "Expedition", href: "/expeditions" },
-    { name: "Our Mountaineering Experience", href: "/experience" },
-    { name: "Medical Certificate", href: "/medical" },
-    { name: "Declaration Form", href: "/declaration" },
+    { name: "Expedition", href: "#" },
+    { name: "Our Mountaineering Experience", href: "#" },
+    { name: "Medical Certificate", href: "#" },
+    { name: "Declaration Form", href: "#" },
   ],
   company: [
-    { name: "Our Story", href: "/story" },
+    { name: "Our Story", href: "#" },
     { name: "Careers", href: "/careers" },
     { name: "Support", href: "/support" },
     { name: "FAQs", href: "/faqs" },
-    { name: "Disclaimer", href: "/disclaimer" },
+    { name: "Disclaimer", href: "#" },
   ],
   legal: [
-    { name: "Privacy Policy", href: "/privacy" },
-    { name: "Terms of Service", href: "/terms" },
-    { name: "Cancellation Policy", href: "/cancellation" },
+    { name: "Privacy Policy", href: "#" },
+    { name: "Terms of Service", href: "#" },
+    { name: "Cancellation Policy", href: "#" },
   ]
 };
 
