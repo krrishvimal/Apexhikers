@@ -171,7 +171,7 @@ export default function Navbar() {
               <Search className="w-5 h-5" />
             </button>
             <Link 
-              href="/customize"
+              href="#"
               className={`px-8 py-3 rounded-sm text-[10px] uppercase tracking-[0.2em] font-bold transition-all shadow-xl ${
                 isScrolled 
                   ? "bg-accent text-white hover:bg-accent/90" 
