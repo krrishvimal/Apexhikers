@@ -24,8 +24,8 @@ export default function FounderInvitation() {
               {!showVideo ? (
                 <>
                   <Image 
-                    src="https://img.youtube.com/vi/JZBlT7BwmDg/maxresdefault.jpg"
-                    alt="Kuldeep Rawat Invitation"
+                    src="https://img.youtube.com/vi/9xwazD5SyVg/maxresdefault.jpg"
+                    alt="Marcus Vance Invitation"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -44,25 +44,16 @@ export default function FounderInvitation() {
 
                   {/* Founder Label */}
                   <div className="absolute bottom-6 left-6 flex items-center gap-6">
-                    <div className="h-10 w-32 relative">
-                       <Image 
-                        src="/himalayanhiker.webp" 
-                        alt="Himalayan Hikers Logo" 
-                        fill 
-                        sizes="128px" 
-                        className="object-contain invert brightness-200" 
-                      />
-                    </div>
-                    <div className="text-white border-l border-white/20 pl-6">
-                      <p className="text-[10px] uppercase tracking-widest font-bold opacity-70">Message from</p>
-                      <p className="text-sm font-serif italic">Kuldeep Rawat, Co-Founder</p>
+                    <div className="text-white pl-3">
+                      <p className="text-[10px] uppercase tracking-[0.2em] font-bold opacity-70 mb-1">Message from</p>
+                      <p className="text-sm font-serif italic text-accent">Marcus Vance, Founder</p>
                     </div>
                   </div>
                 </>
               ) : (
                 <iframe 
                   className="absolute inset-0 w-full h-full"
-                  src="https://www.youtube.com/embed/JZBlT7BwmDg?autoplay=1"
+                  src="https://www.youtube.com/embed/9xwazD5SyVg?autoplay=1"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -107,7 +98,7 @@ export default function FounderInvitation() {
                 "The snow is melting, and the meadows are calling. I've curated this exclusive update to showcase the must-visit destinations that offer a true escape from the heat."
               </p>
               <p>
-                Beyond the trails, we invite you behind the scenes to experience the <span className="text-black font-bold italic">Himalayan Hikers' Signature Touch</span>—from our world-class safety equipment to our bespoke hospitality services.
+                Beyond the trails, we invite you behind the scenes to experience the <span className="text-black font-bold italic">Apex Hikers' Signature Touch</span>—from our world-class safety equipment to our bespoke hospitality services.
               </p>
             </motion.div>
 
@@ -130,7 +121,7 @@ export default function FounderInvitation() {
                 <Award className="w-6 h-6 text-accent shrink-0" />
                 <div>
                   <h4 className="text-[11px] uppercase tracking-widest font-bold mb-1">20+ Years</h4>
-                  <p className="text-[11px] text-muted leading-snug">The pioneers of Himalayan expeditions.</p>
+                  <p className="text-[11px] text-muted leading-snug">The pioneers of alpine expeditions.</p>
                 </div>
               </div>
             </motion.div>

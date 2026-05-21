@@ -60,7 +60,7 @@ export default function WhyChooseUs() {
               viewport={{ once: true }}
               className="text-accent text-[10px] uppercase tracking-[0.5em] font-bold block mb-6"
             >
-              Why Himalayan Hikers
+              Why Apex Hikers
             </motion.span>
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
@@ -143,15 +143,15 @@ export default function WhyChooseUs() {
             </div>
             <div className="h-10 w-[1px] bg-black/5" />
             <div className="flex flex-col">
-              <span className="text-3xl font-serif leading-none mb-1 text-accent">35yr</span>
+              <span className="text-3xl font-serif leading-none mb-1 text-accent">30yr</span>
               <span className="text-[9px] uppercase tracking-widest text-black/40 font-bold">Heritage Legacy</span>
             </div>
           </div>
           <div className="flex items-center gap-6 opacity-30 grayscale hover:grayscale-0 transition-all duration-700">
              {/* Simple text or small icon placeholders for trust logos */}
-             <span className="text-[10px] uppercase tracking-[0.3em] font-bold">ATOAI Accredited</span>
-             <span className="text-[10px] uppercase tracking-[0.3em] font-bold">Startup India</span>
-             <span className="text-[10px] uppercase tracking-[0.3em] font-bold">Uttarakhand Tourism</span>
+             <span className="text-[10px] uppercase tracking-[0.3em] font-bold">Wilderness Association Accredited</span>
+             <span className="text-[10px] uppercase tracking-[0.3em] font-bold">Eco-Luxe Certified</span>
+             <span className="text-[10px] uppercase tracking-[0.3em] font-bold">Summit Safety Standard</span>
           </div>
         </motion.div>
 

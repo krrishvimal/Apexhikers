@@ -31,7 +31,7 @@ const TREKS_DATA: Record<string, Trek[]> = {
     { title: "Winter Season Trek", subtitle: "The Silence of Snow", image: "/featuredtreks/featuredtrekbyseason/68d8f0f584e85.webp" },
     { title: "Spring Season Trek", subtitle: "Rhododendron Bloom", image: "/featuredtreks/featuredtrekbyseason/69a95928b2287_Buransh-Rhododendron-2.webp" },
     { title: "Summer Season Trek", subtitle: "High Altitude Meadows", image: "/featuredtreks/featuredtrekbyseason/6911c36c3db48.webp" },
-    { title: "Monsoon Season Trek", subtitle: "The Valley of Life", image: "/featuredtreks/featuredtrekbyseason/HimalayanHikers (4).webp" },
+    { title: "Monsoon Season Trek", subtitle: "The Valley of Life", image: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?auto=format&fit=crop&q=80&w=1000" },
     { title: "Autumn Season Trek", subtitle: "Crystal Clear Horizons", image: "/featuredtreks/featuredtrekbyseason/alibednibugyal.webp" },
   ],
   "DOMESTIC TREKS": [

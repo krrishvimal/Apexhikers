@@ -100,7 +100,7 @@ export default function FAQPage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <Image 
           src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&q=80" 
-          alt="FAQs Himalayan Hikers"
+          alt="FAQs Apex Hikers"
           fill
           className="object-cover brightness-[0.3]"
           priority

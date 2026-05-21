@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const FOOTER_LINKS = {
   quick: [
-    { name: "Trek", href: "/treks" },
+    { name: "Trek", href: "#" },
     { name: "Expedition", href: "#" },
     { name: "Our Mountaineering Experience", href: "#" },
     { name: "Medical Certificate", href: "#" },
@@ -40,17 +40,13 @@ export default function Footer() {
         {/* Top Section: Brand & Newsletter */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-20 mb-32 pb-32 border-b border-white/5">
           <div className="lg:col-span-6 space-y-12">
-            <Link href="/" className="relative h-12 w-64 block group">
-              <Image 
-                src="/himalayanhiker.webp"
-                alt="Himalayan Hikers"
-                fill
-                sizes="256px"
-                className="object-contain brightness-0 invert group-hover:scale-105 transition-transform"
-              />
+            <Link href="/" className="block group">
+              <span className="text-3xl font-serif tracking-[0.2em] font-bold uppercase text-white">
+                APEX<span className="text-accent font-normal italic">HIKERS</span>
+              </span>
             </Link>
             <h2 className="text-4xl md:text-6xl font-serif leading-[1.1] max-w-xl italic text-white/90">
-              Crafting stories in the <span className="text-accent not-italic">Himalayas</span> since 1990.
+              Crafting stories of the <span className="text-accent not-italic">Peaks</span> since 1990.
             </h2>
           </div>
           
@@ -78,30 +74,30 @@ export default function Footer() {
           
           {/* Sankri Office */}
           <div>
-            <h4 className="text-[10px] uppercase tracking-[0.4em] font-bold text-accent mb-10">Sankri Head Office</h4>
+            <h4 className="text-[10px] uppercase tracking-[0.4em] font-bold text-accent mb-10">Trailhead Basecamp HQ</h4>
             <div className="space-y-6 text-sm text-white/40 leading-relaxed font-sans">
               <p className="flex gap-4">
                 <MapPin className="w-4 h-4 shrink-0 text-white/20" />
-                35GJ+PJ8, Mori-Sankari Rd, Sidri, <br /> Sankri, Uttarakhand 249128
+                Basecamp Alpha, Trailhead Valley Rd, <br /> Sector 4, Mountain Peak District
               </p>
               <p className="flex gap-4">
                 <Phone className="w-4 h-4 shrink-0 text-white/20" />
-                +91 75056 99509
+                +1 (800) 555-0142
               </p>
             </div>
           </div>
 
           {/* Dehradun Office */}
           <div>
-            <h4 className="text-[10px] uppercase tracking-[0.4em] font-bold text-accent mb-10">Dehradun Office</h4>
+            <h4 className="text-[10px] uppercase tracking-[0.4em] font-bold text-accent mb-10">Metro Operations Center</h4>
             <div className="space-y-6 text-sm text-white/40 leading-relaxed font-sans">
               <p className="flex gap-4">
                 <MapPin className="w-4 h-4 shrink-0 text-white/20" />
-                124, Rajpur Road, Kishanpur, <br /> Dehradun, Uttarakhand 248001
+                100 Summit Boulevard, Suite 500, <br /> Metro City, PC 90210
               </p>
               <p className="flex gap-4">
                 <Mail className="w-4 h-4 shrink-0 text-white/20" />
-                info@himalayanhikers.in
+                info@apexhikers.com
               </p>
             </div>
           </div>
@@ -156,7 +152,7 @@ export default function Footer() {
         <div className="pt-12 border-t border-white/5 flex flex-col lg:flex-row justify-between items-center gap-12">
           <div className="flex flex-col gap-4 items-center lg:items-start">
             <p className="text-[10px] text-white/20 uppercase tracking-[0.3em]">
-              © 1990-{new Date().getFullYear()} Himalayan Hikers. Born in the Mountains.
+              © 1990-{new Date().getFullYear()} Apex Hikers. Crafting the Climb.
             </p>
             <div className="flex gap-8">
               {FOOTER_LINKS.legal.map(link => (

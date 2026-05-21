@@ -13,8 +13,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Himalayan Hikers | Premium Trekking Experiences",
-  description: "Embark on luxury-grade trekking adventures across the Himalayas with Himalayan Hikers. Professional guides, curated itineraries, and breathtaking landscapes.",
+  title: "Apex Hikers | Premium Trekking Experiences",
+  description: "Embark on luxury-grade trekking adventures across the Himalayas with Apex Hikers. Professional guides, curated itineraries, and breathtaking landscapes.",
 };
 
 export default function RootLayout({

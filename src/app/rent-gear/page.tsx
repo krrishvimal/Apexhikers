@@ -32,7 +32,7 @@ const CAMP_GEAR = [
 
 const FAQ_DATA = {
   rental: [
-    { q: "What gear should I rent for a Himalayan trek?", a: "Essential items include trekking poles, backpacks, sleeping bags, tents, and hiking boots. Additional items like crampons or ropes may be needed for advanced treks." },
+    { q: "What gear should I rent for an alpine expedition?", a: "Essential items include trekking poles, backpacks, sleeping bags, tents, and hiking boots. Additional items like crampons or ropes may be needed for advanced treks." },
     { q: "Can I rent gear for multiple days?", a: "Yes, we offer daily, weekly, and custom rental plans. Discounts may apply for longer periods. Booking in advance is recommended." },
     { q: "How do I book trekking gear online?", a: "Click \"Enquire Now\" on the gear item, fill in your details, and submit. Our team will confirm via email or phone." }
   ],

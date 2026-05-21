@@ -79,45 +79,45 @@ function SupportCard({ title, description, cta, icon, href, delay = 0 }: Support
 const SUPPORT_DATA = [
   {
     title: "General Enquiry",
-    description: "Have questions about treks, itineraries, or our services? Our support team will guide you through the Himalayas.",
+    description: "Have questions about treks, itineraries, or our services? Our support team will guide you through the peaks.",
     cta: "Email Support",
     icon: <Mail className="w-5 h-5" />,
-    href: "mailto:info@himalayanhikers.com"
+    href: "mailto:info@apexhikers.com"
   },
   {
     title: "WhatsApp Support",
     description: "Fast, friendly support available 24/7 on WhatsApp for real-time updates and quick assistance.",
     cta: "WhatsApp Support",
     icon: <MessageSquare className="w-5 h-5" />,
-    href: "https://wa.me/919756197558"
+    href: "https://wa.me/18005550142"
   },
   {
     title: "Call Support",
     description: "Speak with our team directly for quick and reliable assistance regarding your upcoming expedition.",
     cta: "Call Support",
     icon: <Phone className="w-5 h-5" />,
-    href: "tel:+919756197558"
+    href: "tel:+18005550142"
   },
   {
     title: "Trek Bookings",
     description: "Need help with booking a trek, payment, or modifications? Contact our dedicated booking team.",
     cta: "Booking Support",
     icon: <Calendar className="w-5 h-5" />,
-    href: "mailto:bookings@himalayanhikers.com"
+    href: "mailto:bookings@apexhikers.com"
   },
   {
     title: "Partnerships",
     description: "We collaborate with travel agencies, schools, and corporates. Let's create impactful journeys together.",
     cta: "Contact Partnerships",
     icon: <Users className="w-5 h-5" />,
-    href: "mailto:partners@himalayanhikers.com"
+    href: "mailto:partners@apexhikers.com"
   },
   {
     title: "Careers",
-    description: "Passionate about trekking? Join Himalayan Hikers and be part of our expert mountain crew.",
+    description: "Passionate about trekking? Join Apex Hikers and be part of our expert mountain crew.",
     cta: "Apply Now",
     icon: <Briefcase className="w-5 h-5" />,
-    href: "mailto:hr@himalayanhikers.com"
+    href: "mailto:careers@apexhikers.com"
   },
   {
     title: "Feedback",

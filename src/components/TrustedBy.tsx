@@ -1,31 +1,25 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { Mountain, ShieldCheck, Award, HeartPulse, Compass, Globe, CheckCircle } from "lucide-react";
 
-import Image from "next/image";
-
-const PARTNERS = [
-  { name: "ATOAI", img: "/trustedby/Atoai.webp" },
-  { name: "Uttarakhand Tourism", img: "/trustedby/uttarakhand.webp" },
-  { name: "UPES", img: "/trustedby/upes.webp" },
-  { name: "Blue Bells", img: "/trustedby/blu b.webp" },
-  { name: "Hanifl Centre", img: "/trustedby/5.webp" },
-  { name: "Woodstock School", img: "/trustedby/woodstock.webp" },
-  { name: "Welham Boys", img: "/trustedby/welhamboys.webp" },
-  { name: "Startup India", img: "/trustedby/startup.webp" },
-  { name: "Nidhi+", img: "/trustedby/nidhi.webp" },
-  { name: "MSME", img: "/trustedby/msme.webp" },
-  { name: "Vardhman", img: "/trustedby/vardhman.webp" },
-  { name: "The Valley School", img: "/trustedby/vl.webp" },
-  { name: "Ministry of Tourism", img: "/trustedby/ministry-of-tourism-gov-india.webp" },
-  { name: "Additional Certification", img: "/trustedby/6.webp" }
+const CERTIFICATIONS = [
+  { name: "Alpine Safety Federation", icon: ShieldCheck, subtitle: "Elite Grade I Safety Standard" },
+  { name: "Global Outdoor Council", icon: Globe, subtitle: "Charter Coalition Member" },
+  { name: "Wilderness First Responder", icon: HeartPulse, subtitle: "First Aid & Emergency Certified" },
+  { name: "Eco-Trek Coalition", icon: Compass, subtitle: "Sustainable Green Trail Partner" },
+  { name: "International Mountain Guides", icon: Mountain, subtitle: "Professional Affiliation" },
+  { name: "Leave No Trace Partner", icon: CheckCircle, subtitle: "Certified Conservation Practice" },
+  { name: "Summit Medicine Guild", icon: Award, subtitle: "High-Altitude Medical Advisory" }
 ];
 
 export default function TrustedBy() {
   return (
-    <section className="py-24 px-6 md:px-12 bg-white border-y border-black/[0.03]">
+    <section className="py-32 px-6 md:px-12 bg-white border-y border-black/[0.03]">
       <div className="max-w-[1600px] mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-8">
+        
+        {/* Header */}
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-24 gap-8">
           <div>
             <motion.span 
               initial={{ opacity: 0 }}
@@ -39,37 +33,41 @@ export default function TrustedBy() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="text-3xl md:text-4xl font-serif"
+              className="text-4xl md:text-5xl font-serif tracking-tight"
             >
-              Trusted by <span className="italic font-normal text-accent">Global Institutions</span>
+              Certified by <span className="italic font-normal text-accent">Global Organizations</span>
             </motion.h2>
           </div>
-          <p className="text-sm max-w-sm text-black/70 font-sans leading-relaxed">
-            From premier educational institutions to government tourism bodies, our legacy of safety and expertise is recognized nationwide.
+          <p className="text-lg max-w-md text-black/50 font-sans leading-relaxed">
+            Recognized globally by top-tier outdoor councils, our legacy of safety, ecological preservation, and elite high-altitude training sets the industry benchmark.
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-px bg-black/[0.05] border border-black/[0.05]">
-          {PARTNERS.map((partner, index) => (
-            <motion.div 
-              key={partner.name}
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.05 }}
-              className="bg-white p-6 h-40 flex items-center justify-center group cursor-default relative overflow-hidden"
-            >
-              <div className="relative w-full h-full transition-all duration-500 group-hover:scale-110">
-                <Image 
-                  src={partner.img}
-                  alt={partner.name}
-                  fill
-                  sizes="(max-width: 768px) 50vw, (max-width: 1024px) 25vw, 15vw"
-                  className="object-contain"
-                />
-              </div>
-            </motion.div>
-          ))}
+        {/* Certifications Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-px bg-black/[0.05] border border-black/[0.05] shadow-sm">
+          {CERTIFICATIONS.map((cert, index) => {
+            const Icon = cert.icon;
+            return (
+              <motion.div 
+                key={cert.name}
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.05 }}
+                className="bg-white p-8 h-56 flex flex-col items-center justify-center text-center group cursor-default relative overflow-hidden hover:bg-accent/[0.01] transition-all duration-500"
+              >
+                <div className="w-14 h-14 rounded-full bg-accent/5 flex items-center justify-center text-accent mb-6 group-hover:scale-110 group-hover:bg-accent group-hover:text-white transition-all duration-500 shadow-sm">
+                  <Icon className="w-6 h-6" />
+                </div>
+                <h4 className="text-[12px] uppercase tracking-wider font-bold mb-2 group-hover:text-accent transition-colors">
+                  {cert.name}
+                </h4>
+                <p className="text-[9px] uppercase tracking-widest text-black/30 font-bold">
+                  {cert.subtitle}
+                </p>
+              </motion.div>
+            );
+          })}
         </div>
       </div>
     </section>

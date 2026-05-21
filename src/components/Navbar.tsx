@@ -78,11 +78,11 @@ export default function Navbar() {
           </div>
           <div className="flex items-center gap-8">
             <span className="text-[9px] uppercase tracking-[0.3em] text-white/70 flex items-center gap-2">
-              <Phone className="w-3 h-3 text-accent" /> +91 97561 97558
+              <Phone className="w-3 h-3 text-accent" /> +1 (800) 555-0190
             </span>
             <div className="h-3 w-[1px] bg-white/20" />
             <span className="text-[9px] uppercase tracking-[0.3em] text-white/70 flex items-center gap-2">
-              <Mail className="w-3 h-3 text-accent" /> info@himalayanhikers.com
+              <Mail className="w-3 h-3 text-accent" /> info@apexhikers.com
             </span>
           </div>
         </div>
@@ -99,17 +99,12 @@ export default function Navbar() {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 flex items-center justify-between">
           
           {/* Logo */}
-          <Link href="/" className="relative h-12 w-56 group">
-            <Image 
-              src="/himalayanhiker.webp"
-              alt="Himalayan Hikers"
-              fill
-              sizes="224px"
-              className={`object-contain transition-all duration-500 ${
-                isScrolled ? "brightness-100" : "brightness-0 invert"
-              }`}
-              priority
-            />
+          <Link href="/" className="flex items-center gap-3 group">
+            <span className={`text-2xl font-serif tracking-[0.2em] font-bold uppercase transition-colors duration-500 ${
+              isScrolled ? "text-black" : "text-white"
+            }`}>
+              APEX<span className="text-accent font-normal italic">HIKERS</span>
+            </span>
           </Link>
 
           {/* Desktop Links */}
@@ -202,7 +197,9 @@ export default function Navbar() {
             className="fixed inset-0 bg-white z-[60] flex flex-col p-12"
           >
             <div className="flex justify-between items-center mb-24">
-               <Image src="/himalayanhiker.webp" alt="Logo" width={180} height={40} className="object-contain" />
+               <span className="text-2xl font-serif tracking-[0.2em] font-bold uppercase text-black">
+                 APEX<span className="text-accent font-normal italic">HIKERS</span>
+               </span>
                <button onClick={() => setIsMobileMenuOpen(false)}><X className="w-8 h-8" /></button>
             </div>
             

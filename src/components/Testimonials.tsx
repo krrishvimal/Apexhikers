@@ -19,7 +19,7 @@ const TESTIMONIALS = [
     trek: "Kedarkantha Trek",
     date: "Oct 2025",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
-    text: "Had an amazing experience with Himalayan Hikers on the Kedarkantha Trek! Everything was perfectly managed — from stay and food to overall coordination. A big thanks to our trek leader, Digvijay Rawat Sir, for his guidance and motivation throughout the journey. Also, special mention to Gajju Bhai and Raunak Bhai for being such helpful and friendly guides, also the hotel staff for the great hospitality. The cooking staff served delicious and timely food every day, which made the trek even more enjoyable.",
+    text: "Had an amazing experience with Apex Hikers on the Kedarkantha Trek! Everything was perfectly managed — from stay and food to overall coordination. A big thanks to our trek leader for his guidance and motivation throughout the journey. Also, special mention to the local guides for being so helpful and friendly, also the basecamp staff for the great hospitality. The cooking staff served delicious and timely food every day, which made the trek even more enjoyable.",
     rating: 5
   },
   {
@@ -27,7 +27,7 @@ const TESTIMONIALS = [
     trek: "Brahmatal Trek",
     date: "Nov 2025",
     avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
-    text: "We were a group of eight people on the Brahmatal Trek with Himalayan Hikers, led by Nishu Rana and Veeru Rawat. It was a fantastic journey, perfectly planned and executed. During the trek, we felt completely safe and well-cared for. The base camp facilities were excellent, and the summit climb was timed perfectly for the sunrise. Truly one of the best trekking companies out there — highly recommended for anyone planning the Brahmatal Trek!",
+    text: "We were a group of eight people on the Brahmatal Trek with Apex Hikers, led by their exceptional mountain guides. It was a fantastic journey, perfectly planned and executed. During the trek, we felt completely safe and well-cared for. The base camp facilities were excellent, and the summit climb was timed perfectly for the sunrise. Truly one of the best trekking companies out there — highly recommended for anyone planning the Brahmatal Trek!",
     rating: 5
   }
 ];
@@ -56,7 +56,7 @@ export default function Testimonials() {
               viewport={{ once: true }}
               className="text-5xl md:text-7xl font-serif leading-[1.1] tracking-tight mb-8"
             >
-              Voices of the <br /> <span className="italic font-normal">Himalayan Legacy</span>
+              Voices of the <br /> <span className="italic font-normal">Summit Legacy</span>
             </motion.h2>
             <div className="flex items-center gap-6">
               <div className="flex items-center gap-2">

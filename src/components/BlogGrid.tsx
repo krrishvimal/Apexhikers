@@ -8,7 +8,7 @@ const BLOGS = [
   {
     title: "Kedarkantha Trek: The Complete 2026 Guide",
     date: "Oct 12, 2025",
-    author: "Kuldeep Rawat",
+    author: "Marcus Vance",
     readTime: "12 min read",
     category: "Ultimate Guide",
     excerpt: "From the mystical myths of Lord Shiva to the panoramic 360-degree views of the Swargarohini peaks—discover why Kedarkantha remains the king of winter treks.",
@@ -18,7 +18,7 @@ const BLOGS = [
   {
     title: "When to Visit Dayara Bugyal?",
     date: "Sept 28, 2025",
-    author: "Sandeep Rawat",
+    author: "Sarah Jenkins",
     readTime: "8 min read",
     category: "Expert Advice",
     excerpt: "The emerald meadows of Dayara transform with every season. We break down the best months for photography and camping.",
@@ -28,7 +28,7 @@ const BLOGS = [
   {
     title: "The Silent Valley: Har Ki Dun Journal",
     date: "Sept 15, 2025",
-    author: "Arjun Singh",
+    author: "Lucas Chen",
     readTime: "6 min read",
     category: "Expeditions",
     excerpt: "A deeply personal account of a 7-day journey through the cradle of the ancient civilizations in the Tons Valley.",
@@ -54,7 +54,7 @@ export default function BlogGrid() {
               viewport={{ once: true }}
               className="text-accent text-[10px] uppercase tracking-[0.5em] font-bold block mb-6"
             >
-              Himalayan Journal
+              Summit Journal
             </motion.span>
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}

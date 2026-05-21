@@ -8,9 +8,9 @@ import Image from "next/image";
 
 const SLIDES = [
   {
-    subtitle: "EST. 1990 THE HIMALAYAN PIONEER",
+    subtitle: "EST. 1990 THE SUMMIT PIONEERS",
     title: "The Silent <br /> <span className='italic font-normal'>Symphony</span> of Peaks",
-    description: "Curating narratives of snow and stone for those who seek the extraordinary. Experience the Himalayas in their most refined form.",
+    description: "Curating narratives of snow and stone for those who seek the extraordinary. Experience the peaks in their most refined form.",
     cta: "Explore Collections",
     image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2070",
     badge: null
@@ -29,12 +29,12 @@ const SLIDES = [
     description: "Trade the heat for the heights. Our summer expeditions are curated for clarity, safety, and breathtaking panoramas.",
     cta: "Discover Summer",
     image: "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&q=80&w=2070",
-    badge: "34+ Years of Heritage • Safety First"
+    badge: "30+ Years of Heritage • Safety First"
   },
   {
     subtitle: "Signature Legacy",
     title: "Har Ki Dun: <br /> The <span className='italic font-normal'>Valley</span> of Gods",
-    description: "Follow the ancient trails of the Garhwal. A journey through timeless villages and alpine meadows that define the Himalayan spirit.",
+    description: "Follow the ancient trails of the Garhwal. A journey through timeless villages and alpine meadows that define the alpine spirit.",
     cta: "View Experience",
     image: "https://images.unsplash.com/photo-1544198365-f5d60b6d8190?auto=format&fit=crop&q=80&w=2070",
     badge: "Limited Signature Series | Sustainable Trails"

@@ -10,12 +10,12 @@ const CATEGORIES = [
   {
     title: "By Season",
     icon: Sparkles,
-    items: ["Winter", "Spring", "Summer", "Monsoon", "Autumn", "Himalayan", "Uttarakhand"]
+    items: ["Winter", "Spring", "Summer", "Monsoon", "Autumn", "Alpine", "Pass Crossings"]
   },
   {
     title: "By Region",
     icon: MapPin,
-    items: ["Uttarakhand", "Himachal", "Kashmir", "Ladakh", "Sikkim", "Nepal"]
+    items: ["Alps", "Himalayas", "Andes", "Patagonia", "Rockies", "Karakoram"]
   },
   {
     title: "By Difficulty",
@@ -75,7 +75,7 @@ export default function ExpeditionNavigator() {
             </div>
             <div className="lg:col-span-5 pb-2">
               <p className="text-black/50 text-lg md:text-xl font-sans leading-relaxed italic border-l border-accent/30 pl-8">
-                An architectural filtering system designed to help you navigate the vast Himalayan wilderness by season, region, and spirit.
+                An architectural filtering system designed to help you navigate the vast alpine wilderness by season, region, and spirit.
               </p>
             </div>
           </div>

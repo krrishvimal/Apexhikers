@@ -40,34 +40,34 @@ function MagneticWrapper({ children }: { children: React.ReactNode }) {
 
 const CONTACT_CHANNELS = [
   {
-    title: "WhatsApp Assistance",
-    desc: "Quick queries and real-time updates directly from the trail.",
-    contact: "+91 75056 99509",
-    href: "https://wa.me/917505699509",
+    title: "Support Assistance",
+    desc: "Quick queries and real-time updates directly from our coordinators.",
+    contact: "+1 (800) 555-0190",
+    href: "https://wa.me/18005550190",
     icon: <MessageSquare className="w-6 h-6" />,
     cta: "Chat Now"
   },
   {
     title: "General Bookings",
     desc: "For trek reservations, group bookings, and itinerary info.",
-    contact: "bookings@himalayanhikers.in",
-    href: "mailto:bookings@himalayanhikers.in",
+    contact: "bookings@apexhikers.com",
+    href: "mailto:bookings@apexhikers.com",
     icon: <Clock className="w-6 h-6" />,
     cta: "Email Bookings"
   },
   {
     title: "Partnerships",
     desc: "Collaborative ventures with agencies, schools, and corporates.",
-    contact: "partner@himalayanhikers.in",
-    href: "mailto:partner@himalayanhikers.in",
+    contact: "partners@apexhikers.com",
+    href: "mailto:partners@apexhikers.com",
     icon: <Globe className="w-6 h-6" />,
     cta: "Partner With Us"
   },
   {
     title: "Support Desk",
     desc: "Post-booking assistance, safety protocols, and emergency support.",
-    contact: "+91 97561 97558",
-    href: "tel:+919756197558",
+    contact: "+1 (800) 555-0142",
+    href: "tel:+18005550142",
     icon: <Shield className="w-6 h-6" />,
     cta: "Contact Desk"
   }
@@ -104,7 +104,7 @@ export default function SupportPage() {
             Support & <span className="italic font-normal text-accent">Assistance</span>
           </motion.h1>
           <p className="text-xl text-white/60 font-serif max-w-2xl mx-auto">
-            We are here to help you navigate your Himalayan adventure. Reach out anytime.
+            We are here to help you navigate your alpine adventure. Reach out anytime.
           </p>
         </div>
       </section>
@@ -161,7 +161,9 @@ export default function SupportPage() {
               </div>
               <h2 className="text-5xl md:text-8xl font-serif leading-[1.1] tracking-tighter">Visit us in the <br /> <span className="italic font-normal text-black/20">Mountains.</span></h2>
               <p className="text-black/50 leading-relaxed font-sans text-xl max-w-xl">
-                Our base camps and offices are strategically located to provide the best logistical support and a warm Himalayan welcome for your treks.
+              <p className="text-black/50 leading-relaxed font-sans text-xl max-w-xl">
+                Our base camps and offices are strategically located to provide the best logistical support and a warm professional welcome for your treks.
+              </p>
               </p>
             </div>
             
@@ -170,18 +172,18 @@ export default function SupportPage() {
                 <div className="w-12 h-12 rounded-full bg-accent/5 flex items-center justify-center mb-8">
                   <MapPin className="w-5 h-5 text-accent" />
                 </div>
-                <h4 className="text-2xl font-serif mb-4">Sankri Head Office</h4>
+                <h4 className="text-2xl font-serif mb-4">Trailhead Basecamp HQ</h4>
                 <p className="text-muted text-sm leading-relaxed font-sans opacity-60">
-                  35GJ+PJ8, Mori-Sankari Rd, Sidri, <br /> Sankri, Uttarakhand 249128
+                  Basecamp Alpha, Trailhead Valley Rd, <br /> Sector 4
                 </p>
               </div>
               <div className="bg-white p-12 border border-black/5 shadow-sm hover:shadow-xl transition-all">
                 <div className="w-12 h-12 rounded-full bg-accent/5 flex items-center justify-center mb-8">
                   <MapPin className="w-5 h-5 text-accent" />
                 </div>
-                <h4 className="text-2xl font-serif mb-4">Dehradun Office</h4>
+                <h4 className="text-2xl font-serif mb-4">Metro Operations Center</h4>
                 <p className="text-muted text-sm leading-relaxed font-sans opacity-60">
-                  124, Rajpur Road, Kishanpur, <br /> Dehradun, Uttarakhand 248001
+                  100 Summit Boulevard, Suite 500, <br /> Metro City
                 </p>
               </div>
             </div>
@@ -196,9 +198,9 @@ export default function SupportPage() {
             <Heart className="w-16 h-16 text-accent animate-pulse" />
             <h2 className="text-5xl md:text-7xl font-serif italic leading-tight">Our commitment <br /> <span className="not-italic">to your journey.</span></h2>
             <p className="text-black/50 text-xl leading-relaxed font-sans max-w-2xl">
-              At Himalayan Hikers, support isn't just about answering emails. It's about being on the ground, 
+              At Apex Hikers, support isn't just about answering emails. It's about being on the ground, 
               ensuring every trail is marked, every meal is nutritious, and every trekker feels part of our family. 
-              Our 35-year legacy is built on the trust of seekers like you.
+              Our 30-year legacy is built on the trust of seekers like you.
             </p>
             <div className="pt-8">
               <button className="inline-flex items-center gap-6 group">
@@ -212,7 +214,7 @@ export default function SupportPage() {
           <div className="flex-1 relative aspect-square w-full rounded-[2px] overflow-hidden group">
             <Image 
               src="https://images.unsplash.com/photo-1533240332313-0db49b459ad6?auto=format&fit=crop&q=80" 
-              alt="Himalayan Hospitality"
+              alt="Apex Hikers Hospitality"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"
               className="object-cover transition-transform duration-[3s] group-hover:scale-110"

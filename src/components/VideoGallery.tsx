@@ -7,32 +7,32 @@ import Image from "next/image";
 
 const VIDEOS = [
   {
-    id: "hDM_kDYKVHU",
-    title: "Har Ki Dun: The Valley of Gods",
-    duration: "4:20",
+    id: "8lU1GHBrqls",
+    title: "The Dolomites: World's Most Beautiful Peaks",
+    duration: "4:15",
     category: "Expedition Guide",
-    description: "A cinematic journey through one of the most ancient trekking routes in the Garhwal Himalayas."
+    description: "A breathtaking cinematic journey over the jagged towers and golden heights of the Italian Dolomites."
   },
   {
-    id: "ndTpNG7R7N8",
-    title: "Kedarkantha: The Winter Summit",
-    duration: "6:15",
+    id: "TE_Gf16EGHA",
+    title: "Swiss Alps: Valleys & Villages",
+    duration: "12:10",
     category: "Seasonal Film",
-    description: "Witness the raw beauty of the Himalayas under a blanket of pure white snow."
+    description: "Witness the majestic slopes, legendary trains, and timeless villages of the Swiss Alps in ultra-high resolution."
   },
   {
-    id: "djiy7uH_fB0",
-    title: "Dayara Bugyal: Highland Meadows",
-    duration: "3:45",
+    id: "Y97wob0akMg",
+    title: "Alpine Giants: Top 30 Peaks",
+    duration: "15:45",
     category: "Trek Journal",
-    description: "The emerald slopes and expansive meadows of Dayara, captured in golden light."
+    description: "An ultimate visual archive tracing the most iconic climbs and panoramic high-altitude trails across the Alps."
   },
   {
-    id: "Ks_zXFhqXg8",
-    title: "Kuari Pass: Lord Curzon's Trail",
-    duration: "5:30",
+    id: "Mupom-sgjAU",
+    title: "Matterhorn to Zermatt: Classic Trails",
+    duration: "10:30",
     category: "Adventure Documentary",
-    description: "Retracing history on the trail that offers the grandest view of Nanda Devi."
+    description: "Retrace classic European mountaineering paths around the ultimate towering shape of the Matterhorn."
   }
 ];
 
@@ -80,7 +80,7 @@ export default function VideoGallery() {
           </div>
           <div className="lg:col-span-5 pb-2">
             <p className="text-white/40 text-lg font-sans leading-relaxed mb-8 max-w-md">
-              Dive deep into the Himalayan wilderness through our curated video series. From expert survival guides to cinematic trek journals.
+              Dive deep into the alpine wilderness through our curated video series. From expert survival guides to cinematic trek journals.
             </p>
             <button className="flex items-center gap-4 text-[10px] uppercase tracking-[0.3em] font-bold border-b border-accent/30 pb-2 hover:border-accent hover:text-accent transition-all group">
               Watch all stories <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -97,7 +97,7 @@ export default function VideoGallery() {
             className="relative aspect-[21/9] group cursor-pointer overflow-hidden rounded-sm bg-[#121212] shadow-3xl"
           >
             <VideoThumbnail 
-              videoId="hDM_kDYKVHU"
+              videoId="8lU1GHBrqls"
               alt="Featured Story"
               className="object-cover transition-transform duration-1000 group-hover:scale-105"
             />
@@ -105,7 +105,7 @@ export default function VideoGallery() {
             {/* Play Overlay */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div 
-                onClick={() => setActiveVideo("hDM_kDYKVHU")}
+                onClick={() => setActiveVideo("8lU1GHBrqls")}
                 className="w-28 h-28 rounded-full bg-white/5 backdrop-blur-xl border border-white/10 flex items-center justify-center group-hover:scale-110 group-hover:bg-accent group-hover:border-accent transition-all duration-700"
               >
                 <Play className="w-8 h-8 fill-white text-white translate-x-1" />

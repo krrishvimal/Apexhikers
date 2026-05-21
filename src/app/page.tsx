@@ -35,7 +35,7 @@ export default function Home() {
         {/* 4. Cinematic Experiences - Visual Immersion */}
         <VideoGallery />
 
-        {/* 5. Himalayan Journal - Authority & Education */}
+        {/* 5. Summit Journal - Authority & Education */}
         <BlogGrid />
 
         {/* 6. Guest Stories - Final Social Proof */}

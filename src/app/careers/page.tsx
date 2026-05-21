@@ -10,19 +10,19 @@ const JOBS = [
   {
     role: "Senior Trek Leader",
     type: "Field / Full-Time",
-    location: "Sankri / Leh",
+    location: "Alpine Basecamp",
     desc: "Lead high-altitude expeditions and ensure the safety and satisfaction of our trekking community."
   },
   {
     role: "Adventure Content Writer",
     type: "Remote / Contract",
     location: "Global",
-    desc: "Craft immersive stories and guides that inspire the next generation of Himalayan explorers."
+    desc: "Craft immersive stories and guides that inspire the next generation of alpine explorers."
   },
   {
     role: "Base Camp Manager",
-    type: "On-Site / seasonal",
-    location: "Uttarakhand",
+    type: "On-Site / Seasonal",
+    location: "Summit Operations",
     desc: "Oversee logistics, equipment, and hospitality at our primary mountain base camps."
   },
   {
@@ -42,7 +42,7 @@ export default function CareersPage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <Image 
           src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80" 
-          alt="Careers at Himalayan Hikers"
+          alt="Careers at Apex Hikers"
           fill
           className="object-cover brightness-[0.4]"
           priority
@@ -60,7 +60,7 @@ export default function CareersPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-8xl font-serif leading-[1.1] mb-8"
           >
-            Careers at <span className="italic font-normal text-accent">Himalayan Hikers</span>
+            Careers at <span className="italic font-normal text-accent">Apex Hikers</span>
           </motion.h1>
           <p className="text-xl text-white/60 font-serif max-w-2xl mx-auto">
             Join our mission to make trekking safe, sustainable, and unforgettable.
@@ -73,7 +73,7 @@ export default function CareersPage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-24">
             <h2 className="text-4xl font-serif mb-6 underline decoration-accent underline-offset-8">Why Work With Us?</h2>
-            <p className="text-black/40 text-sm max-w-xl mx-auto">Be a part of India's leading trekking community with 28+ years of adventure experience.</p>
+            <p className="text-black/40 text-sm max-w-xl mx-auto">Be a part of a premier global trekking collective with over 30 years of adventure heritage.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
             <div className="text-center group">
@@ -82,7 +82,7 @@ export default function CareersPage() {
               </div>
               <h3 className="text-2xl font-serif mb-4">Adventure Lifestyle</h3>
               <p className="text-sm text-black/60 leading-relaxed font-sans">
-                Work amidst the Himalayas and live the dream life of an adventurer.
+                Work amidst the highest ranges and live the dream life of an adventurer.
               </p>
             </div>
             <div className="text-center group">
@@ -148,10 +148,10 @@ export default function CareersPage() {
       <section className="py-32 px-6 md:px-12 bg-[#0a0a0a] text-white overflow-hidden relative">
         <div className="max-w-4xl mx-auto text-left relative z-10">
           <div className="w-32 h-1 bg-accent mb-12" />
-          <h2 className="text-4xl md:text-5xl font-serif mb-10 italic">Why Build Your Career with Himalayan Hikers?</h2>
+          <h2 className="text-4xl md:text-5xl font-serif mb-10 italic">Why Build Your Career with Apex Hikers?</h2>
           <div className="space-y-8 text-lg text-white/70 leading-relaxed font-sans">
             <p>
-              Working with <span className="text-white font-bold">Himalayan Hikers</span> is more than just a job—it's a lifelong commitment to the mountains and the people who call them home. As India's most trusted trekking community, we offer a unique environment where professional excellence meets raw adventure.
+              Working with <span className="text-white font-bold">Apex Hikers</span> is more than just a job—it's a lifelong commitment to the peaks and the people who explore them. As a premier global trekking collective, we offer a unique environment where professional excellence meets raw adventure.
             </p>
             <p>
               We believe in <span className="text-accent">Empowerment</span>. From training our local staff in advanced rescue techniques to providing our content creators with the freedom to explore uncharted trails, we invest heavily in our team's personal and professional growth.

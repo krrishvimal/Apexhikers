@@ -85,7 +85,7 @@ const TREKS_DATABASE: Record<string, any> = {
   },
   "everest-base-camp": {
     title: "Everest Base Camp",
-    subtitle: "World's Most Iconic Himalayan Trek",
+    subtitle: "World's Most Iconic Alpine Trek",
     location: "Khumbu Region, Nepal",
     price: 90000,
     duration: "15 Days",
